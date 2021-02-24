@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: bordex-box;
+}
+body{
+  background: #E3E3E3;
+}
+.jumbotron {
+  text-align: center;
+}
+#main-nav ul{
+  padding:0px;
+  margin:0px;
+  background-color: #F3F3F3;
+  list-style: none;
+  overflow: hidden;
+
+}
+#main-nav li{
+  float:left;
+}
+#main-nav li{
+  display:block;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+
+}
+#main-nav li a:hover {
+  background-color: #E3E3E3;
+}
+#main-nav list:last-child{
+  border-right:none;
+}
